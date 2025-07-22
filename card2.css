@@ -1,0 +1,87 @@
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-align: center;
+  
+}
+body {
+    width: 100%;
+    height: 100vh;
+gap: 16px;
+padding: 20px 30px 20px 30px;
+border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-rows: repeat(7 , 1fr);
+    grid-template-areas:  
+      "hr hr hr hr hr hr "
+      "b1 b1 b1 b2 b2 b2 "
+      "b1 b1 b1 b2 b2 b2 "
+       " b3 b3 b4 b5 b6 b6 "
+       " b3 b3 b4 b5 b6 b6 "
+       "b7 b8 b9 b10 b11 b12 "
+       "b7 b8 b9 b10 b11 b12 "
+
+    ;
+}
+
+header {
+    grid-area: hr;
+    background: linear-gradient(#3E66FB);
+}
+.box1 {
+    grid-area: b1;
+    background: linear-gradient(#EC3EFB);
+  
+}
+.box2 {
+    grid-area: b2;
+    background: linear-gradient(#EC3EFB);
+}
+.box3 {
+    grid-area: b3;
+    background: linear-gradient(#FB823E);
+}
+.box4 {
+    grid-area: b4;
+    background: linear-gradient(#FB823E);
+}
+.box5 {
+    grid-area: b5;
+    background: linear-gradient(#FB823E);
+}
+.box6 {
+    grid-area: b6;
+    background: linear-gradient(#FB823E);
+}
+.box7 {
+    grid-area: b7;
+    background: linear-gradient(#423EFB);
+}
+.box8 {
+    grid-area: b8;
+    background: linear-gradient(#423EFB);
+}
+.box9 {
+    grid-area: b9;
+    background: linear-gradient(#423EFB);
+}
+.box10 {
+    grid-area: b10;
+    background: linear-gradient(#423EFB);
+}
+.box11 {
+    grid-area: b11;
+    background: linear-gradient(#423EFB);
+}
+.box12 {
+    grid-area: b12;
+    background: linear-gradient(#423EFB);
+}
